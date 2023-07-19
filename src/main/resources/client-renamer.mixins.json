@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "cooldma.test.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientBrandRetrieverMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ClientBrandRetrieverMixin"
+  ]
+}

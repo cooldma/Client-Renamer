@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "client-renamer",
+	"version": "${version}",
+	"name": "Client-Renamer",
+	"description": "This mod allows you to dynamically change your client brand through a simple command.",
+	"authors": [
+		"cooldma"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/client-renamer/",
+		"sources": "https://github.com/cooldma/Client-Renamer"
+	},
+	"license": "MIT",
+	"icon": "assets/client-renamer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "cooldma.test.ClientRenamer"
+		]
+	},
+	"mixins": [
+		"client-renamer.mixins.json"
+	],
+	"depends": {
+		"minecraft": "*"
+	},
+	"suggests": {
+	}
+}
