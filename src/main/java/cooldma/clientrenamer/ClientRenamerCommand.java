@@ -1,4 +1,4 @@
-package cooldma.test;
+package cooldma.clientrenamer;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.ArgumentType;

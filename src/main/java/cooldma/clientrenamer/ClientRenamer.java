@@ -1,4 +1,4 @@
-package cooldma.test;
+package cooldma.clientrenamer;
 
 import com.mojang.brigadier.CommandDispatcher;
 import net.fabricmc.api.ModInitializer;
@@ -25,8 +25,7 @@ public class ClientRenamer implements ModInitializer {
 		LOGGER.info("Initializing Client-Renamer");
 		ClientCommandRegistrationCallback.EVENT.register(ClientRenamer::registerCommands);
 		try {
-//			clientBrand = mc.getVersionType();
-			clientBrand = mc.player.getServerBrand();
+			clientBrand = mc.getVersionType();
 		} catch (Exception e) {
 			LOGGER.error("An error has occurred, please report this stacktrace: " + Arrays.toString(e.getStackTrace()));
 		}

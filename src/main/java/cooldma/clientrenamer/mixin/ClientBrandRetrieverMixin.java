@@ -1,6 +1,6 @@
-package cooldma.test.mixin;
+package cooldma.clientrenamer.mixin;
 
-import cooldma.test.ClientRenamer;
+import cooldma.clientrenamer.ClientRenamer;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "cooldma.test.ClientRenamer"
+          "cooldma.clientrenamer.ClientRenamer"
 		]
 	},
 	"mixins": [
